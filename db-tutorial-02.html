@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      document.write("5 + 4 = ", 5 + 4, "<br />");
+      document.write("5 + 4 = " + 5 + 4, "<br />");
+      document.write("5 - 4 = ", 5 - 4, "<br />");
+      document.write("5 * 4 = ", 5 * 4, "<br />");
+      document.write("5 / 4 = ", 5 / 4, "<br />");
+      document.write("5 % 4 = ", 5 % 4, "<br />");
+
+      document.write("Max Num = ", Number.MAX_VALUE, "<br />");
+      document.write("Min Num = ", Number.MIN_VALUE, "<br />");
+
+      precisionTest = 0.1000000000000001;
+      document.write(precisionTest + 0.1000000000000001, "<br/>");
+
+      precisionTest = 0.10000000000000001;
+      document.write(precisionTest + 0.10000000000000001, "<br/>");
+
+      var balance = 1563.87
+      document.write("Monthly Payment : ", (balance / 12).toFixed(2), "<br />");
+    </script>
+  </body>
+</html>
